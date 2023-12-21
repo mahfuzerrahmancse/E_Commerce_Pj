@@ -1,0 +1,35 @@
+.NavParent {
+   padding: 10px 30px; 
+   display: flex;
+   justify-content: space-between;
+   
+   margin: auto;
+   align-items: center;
+}
+.Navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: rgba(81, 81, 81, 0.118);
+}
+
+.NavSon1 {
+  display: flex;
+  align-items: center;
+  
+}
+.NavSon1 p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #171717;
+}
+
+.NavSon2 {
+    /* margin: 0px;
+    background: gray; */
+}
+.NavSon3 {
+    /* border: 1px;
+    background: red; */
+}
